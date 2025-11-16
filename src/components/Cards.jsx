@@ -1,8 +1,8 @@
-import { ShieldCheck, Hand, Soup, Syringe, HeartHandshake, Apple, Viruses, Thermometer, AlertTriangle, Salad, Bug, Wind, Droplets, Scale, Activity } from 'lucide-react'
+import { ShieldCheck, Hand, Syringe, Heart, Apple, AlertTriangle, Bug, Wind, Droplets, Scale, Activity, Stethoscope, Thermometer, Bandage } from 'lucide-react'
 
 export function EdukasiCards() {
   const items = [
-    { icon: HeartHandshake, title: 'Pengertian Kesehatan Masyarakat', desc: 'Upaya kolektif untuk mencegah penyakit, memperpanjang usia, dan meningkatkan kualitas hidup melalui tindakan masyarakat terorganisir.' },
+    { icon: Heart, title: 'Pengertian Kesehatan Masyarakat', desc: 'Upaya kolektif untuk mencegah penyakit, memperpanjang usia, dan meningkatkan kualitas hidup melalui tindakan masyarakat terorganisir.' },
     { icon: Activity, title: 'Determinan Kesehatan', desc: 'Perilaku, lingkungan, faktor genetik, dan akses layanan kesehatan saling memengaruhi derajat kesehatan.' },
     { icon: ShieldCheck, title: 'PHBS', desc: 'Cuci tangan, konsumsi air bersih, jamban sehat, olahraga teratur, dan tidak merokok sebagai kebiasaan sehari-hari.' },
     { icon: Syringe, title: 'Imunisasi', desc: 'Melindungi dari penyakit menular serius. Ikuti jadwal imunisasi sesuai usia dan rekomendasi tenaga kesehatan.' },
@@ -29,11 +29,11 @@ export function PencegahanList() {
     { icon: Droplets, title: 'Hygiene Tangan', desc: 'Cuci tangan 6 langkah selama 20 detik terutama sebelum makan dan setelah dari toilet.' },
     { icon: Wind, title: 'Etika Batuk', desc: 'Tutup mulut dengan tisu/siku, buang tisu ke tempat sampah, cuci tangan setelahnya.' },
     { icon: Hand, title: 'Kebersihan Rumah', desc: 'Rutin pel, bersihkan permukaan yang sering disentuh, pastikan ventilasi baik dan matahari masuk.' },
-    { icon: Salad, title: 'Pola Makan Seimbang', desc: 'Piring Makanku: setengah sayur-buah, seperempat protein, seperempat karbohidrat kompleks. Batasi gula, garam, lemak.' },
+    { icon: Scale, title: 'Pola Makan Seimbang', desc: 'Piring Makanku: setengah sayur-buah, seperempat protein, seperempat karbohidrat kompleks. Batasi gula, garam, lemak.' },
     { icon: Bug, title: 'Cegah DBD (3M Plus)', desc: 'Menguras, menutup, memanfaatkan kembali barang bekas + gunakan lotion anti nyamuk, perbaiki talang air.' },
     { icon: Wind, title: 'Cegah ISPA', desc: 'Gunakan masker saat sakit/keramaian, jaga jarak, istirahat cukup, minum hangat, konsultasi bila berlanjut.' },
-    { icon: Soup, title: 'Cegah Diare', desc: 'Air minum bersih matang, cuci tangan, jaga kebersihan makanan, gunakan jamban sehat.' },
-    { icon: Scale, title: 'Cegah Obesitas & PTM', desc: 'Pantau IMT, batasi makanan ultra-proses, aktif bergerak, lakukan skrining tekanan darah dan gula darah.' },
+    { icon: Thermometer, title: 'Cegah Diare', desc: 'Air minum bersih matang, cuci tangan, jaga kebersihan makanan, gunakan jamban sehat.' },
+    { icon: Activity, title: 'Cegah Obesitas & PTM', desc: 'Pantau IMT, batasi makanan ultra-proses, aktif bergerak, lakukan skrining tekanan darah dan gula darah.' },
   ]
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

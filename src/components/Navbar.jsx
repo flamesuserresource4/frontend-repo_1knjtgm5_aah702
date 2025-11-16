@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Menu, X, HeartPulse, BookOpen, ShieldCheck, FirstAidKit, Leaf, Image, HelpCircle, Phone } from 'lucide-react'
+import { Menu, X, HeartPulse, BookOpen, ShieldCheck, FirstAid, Leaf, Image, HelpCircle, Phone } from 'lucide-react'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
@@ -8,7 +8,7 @@ export default function Navbar() {
     { href: '#beranda', label: 'Beranda', icon: HeartPulse },
     { href: '#edukasi', label: 'Edukasi', icon: BookOpen },
     { href: '#pencegahan', label: 'Pencegahan', icon: ShieldCheck },
-    { href: '#pertolongan', label: 'Pertolongan', icon: FirstAidKit },
+    { href: '#pertolongan', label: 'Pertolongan', icon: FirstAid },
     { href: '#ramuan', label: 'Bahan Alami', icon: Leaf },
     { href: '#infografik', label: 'Infografik', icon: Image },
     { href: '#faq', label: 'FAQ', icon: HelpCircle },
