@@ -1,0 +1,32 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 303 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.26.34:3000/
+2:01:23 AM [vite] warning: The character ">" is not valid inside a JSX element
+68 |              {steps.map((s) => <li key={s}>{s}</li>)}
+69 |            </ul>
+70 |            <p className="mt-3 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">Segera ke fasilitas kesehatan bila gejala berat, menetap >3 hari, muncul sesak, dehidrasi, kejang, perdarahan, atau pada bayi/ibu hamil/lansia/komorbid.</p>
+   |                                                                                                                                                                ^
+71 |          </div>
+72 |        ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Cards.jsx
+2:01:23 AM [vite] ✨ new dependencies optimized: lucide-react
+2:01:23 AM [vite] ✨ optimized dependencies changed. reloading
+2:01:24 AM [vite] warning: The character ">" is not valid inside a JSX element
+68 |              {steps.map((s) => <li key={s}>{s}</li>)}
+69 |            </ul>
+70 |            <p className="mt-3 text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">Segera ke fasilitas kesehatan bila gejala berat, menetap >3 hari, muncul sesak, dehidrasi, kejang, perdarahan, atau pada bayi/ibu hamil/lansia/komorbid.</p>
+   |                                                                                                                                                                ^
+71 |          </div>
+72 |        ))}
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Cards.jsx
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
